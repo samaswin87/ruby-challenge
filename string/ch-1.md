@@ -20,7 +20,7 @@ Return *[]* if the given string is empty.
 ## Solution - 1
 
 `
-(str + '*').scan(\..\)
+(str + '*').scan(/../)
 `
 
 ## Solution - 2
