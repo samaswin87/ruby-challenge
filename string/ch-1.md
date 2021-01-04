@@ -6,11 +6,9 @@ See the below examples for a better understanding:
 
 Examples:
 
-`
-string_pairs("mubashir") ➞ ["mu", "ba", "sh", "ir"]
-string_pairs("edabit") ➞ ["ed", "ab", "it"]
-string_pairs("airforces") ➞ ["ai", "rf", "or", "ce", "s*"]
-`
+`string_pairs("mubashir") ➞ ["mu", "ba", "sh", "ir"]`
+`string_pairs("edabit") ➞ ["ed", "ab", "it"]`
+`string_pairs("airforces") ➞ ["ai", "rf", "or", "ce", "s*"]`
 
 Return *[]* if the given string is empty.
 
@@ -20,7 +18,7 @@ Return *[]* if the given string is empty.
 ## Solution - 1
 
 `
-(str + '*').scan(\..\)
+(str + '*').scan(/../)
 `
 
 ## Solution - 2
